@@ -1,14 +1,14 @@
 import styles from './style'
-import Navbar from './components'
-import CarDeal from './components' 
-import Billing from './components'
-import Business from './components' 
-import Clients from './components'
-import  CTA from './components'
-import Stats from './components' 
-import Footer from './components'
-// import Testimonials from './components'
-import Hero from './components';
+import Navbar from './components/Navbar'
+import CarDeal from './components/CarDeal' 
+import Billing from './components/Billing'
+import Business from './components/Business' 
+import Clients from './components/Clients'
+import  CTA from './components/CTA'
+import Stats from './components/Stats' 
+import Footer from './components/Footer'
+import Hero from './components/Hero';
+import Testimonials from './components/Testimonials'
 
 
 function App() {
@@ -35,7 +35,7 @@ function App() {
         <CTA />
         <Stats />
         <Footer />
-     
+        <Testimonials />
         </div>
       </div>
     </div>
