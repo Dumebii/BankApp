@@ -1,4 +1,4 @@
-import styles from './style'
+ import styles from './style'
 import Navbar from './components/Navbar'
 import CarDeal from './components/CarDeal' 
 import Billing from './components/Billing'
@@ -9,6 +9,7 @@ import Stats from './components/Stats'
 import Footer from './components/Footer'
 import Hero from './components/Hero';
 import Testimonials from './components/Testimonials'
+import GetStarted from './components/GetStarted'
 
 
 function App() {
@@ -28,12 +29,12 @@ function App() {
       </div>
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
+        <Stats />
+        <Business />
         <Billing />
         <CarDeal />
-        <Business />
         <Clients />
         <CTA />
-        <Stats />
         <Footer />
         <Testimonials />
         </div>
