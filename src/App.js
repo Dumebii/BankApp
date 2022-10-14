@@ -33,10 +33,10 @@ function App() {
         <Business />
         <Billing />
         <CarDeal />
+        <Testimonials />
         <Clients />
         <CTA />
         <Footer />
-        <Testimonials />
         </div>
       </div>
     </div>
